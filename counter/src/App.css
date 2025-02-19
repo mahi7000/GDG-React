@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  align-content: center;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 10px;
+  background-color: lightblue;
+  border: none;
+  border-radius: 10px;
+}
