@@ -1,0 +1,42 @@
+.task-card {
+    width: 60%;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+.top-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.date {
+    font-size: 15px;
+}
+
+.date span {
+    color: #bfd6ed;
+}
+
+.description {
+    padding-left: 10px;
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.delete-edit {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fa-trash, .fa-pen {
+    margin-inline: 5px;
+    color: #bfd6ed;
+}
